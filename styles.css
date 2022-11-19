@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Heebo&family=Jura:wght@300&family=Karla&family=Montserrat:wght@300;400;500;600&family=Overpass:wght@300;400;500;600;700&display=swap");
+
+/* First state */
+body {
+  background: #141519;
+  font-family: "Heebo", sans-serif;
+}
+
+.invis-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 380px;
+  background: #1c2434;
+  border-radius: 30px;
+}
+
+.star {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  background: #262f38;
+}
+
+.star button {
+  position: relative;
+  left: 1.5px;
+}
+
+.heading {
+  color: white;
+}
+
+.body p {
+  color: white;
+  line-height: 23px;
+}
+.main-box {
+  margin: 25px;
+}
+
+.number-list ul button:hover {
+  background-color: #fc7613;
+  color: white;
+  cursor: pointer;
+}
+
+.number-list ul li button:focus {
+  background-color: #7f8c9c;
+  color: white;
+}
+
+.number-list ul {
+  display: flex;
+  list-style: none;
+  width: 350px;
+  justify-content: center;
+  padding: 0;
+  justify-content: space-around;
+}
+
+.number-list button {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  right: 7px;
+  text-align: center;
+  display: block;
+  border-radius: 50%;
+  border: none;
+  background: #262f38;
+}
+
+.number-list li button {
+  position: relative;
+  top: 10px;
+  color: #858e97;
+  padding: 11px 15px;
+  border-radius: 20px;
+}
+
+.submit {
+  position: relative;
+  top: 10px;
+  display: flex;
+  margin: auto;
+  width: 300px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 7px;
+  border-radius: 20px;
+  border: none;
+  background-color: #fc7613;
+  color: white;
+}
+
+.submit:hover {
+  background: white;
+  color: #fc7613;
+  cursor: pointer;
+}
+
+/* Second state */
+
+.thankyou-state {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 440px;
+  background: #1c2434;
+  border-radius: 30px;
+}
+
+.thankyou-hidden {
+  display: none;
+}
+
+.invis-box2 {
+  position: relative;
+  width: 20em;
+  height: 22em;
+  top: 10px;
+  text-align: center;
+  margin: auto;
+}
+
+.thankyou-pic {
+  position: relative;
+  top: 10px;
+}
+
+.thank-you {
+  color: white;
+}
+
+.body2 {
+  position: relative;
+  color: white;
+  line-height: 30px;
+}
+
+.your-selection {
+  position: relative;
+  top: 7.5px;
+  color: #fc7613;
+  width: 15em;
+  height: 2em;
+  margin: auto;
+  border-radius: 20px;
+  background-color: #262f38;
+}
+
+.your-selection p {
+  padding: 3.8px 0;
+}
+
+.rate-again {
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 20px;
+  width: 300px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 4px;
+  border-radius: 20px;
+  border: none;
+  background-color: #fc7613;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.rate-again:hover {
+  background: white;
+  color: #fc7613;
+  cursor: pointer;
+}

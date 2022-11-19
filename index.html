@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="styles.css" />
+  <body>
+    <!-- First card -->
+    <div class="invis-box" id="invis-box">
+      <div class="main-box">
+        <div class="second-box">
+          <div class="star">
+            <span><img src="icon-star.svg" alt="" /></span>
+          </div>
+          <h1 class="heading">How did we do?</h1>
+          <div class="body">
+            <p>
+              Please let us know how we did with your support request. All
+              feedback is appreciated to help us improve our offering!
+            </p>
+          </div>
+          <div class="number-list">
+            <ul>
+              <li><button class="num">1</button></li>
+              <li><button class="num">2</button></li>
+              <li><button class="num">3</button></li>
+              <li><button class="num">4</button></li>
+              <li><button class="num">5</button></li>
+            </ul>
+          </div>
+          <button type="submit" class="submit" id="submit">SUBMIT</button>
+        </div>
+      </div>
+    </div>
+    <!-- Second card -->
+    <div class="thankyou-state thankyou-hidden" id="thankyou-state">
+      <div class="invis-box2">
+        <div class="thankyou-pic">
+          <img src="thank-you.svg" alt="" />
+        </div>
+        <div class="your-selection" id="your-selection">
+          <p>You selected <span id="rating"></span> out of 5.</p>
+        </div>
+        <h1 class="thank-you">Thank you!</h1>
+        <div class="body2">
+          <p>
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, dont hesitate to get in touch!
+          </p>
+        </div>
+      </div>
+      <button class="rate-again" id="rate-again">Rate Again</button>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
